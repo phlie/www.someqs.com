@@ -1,0 +1,50 @@
+.main {
+    margin-top: 120px;
+    border-right: solid 4px white;
+    border-bottom: solid 4px white;
+    border-bottom-right-radius: 20px;
+}
+h1 {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    background-image: url("../img/texture-1.jpg");
+    background-size: cover;
+    font-size: 5.5em;
+    font-weight: bold;
+    border-bottom: solid 4px white;
+    border-left: solid 4px white;
+    border-bottom-left-radius: 20px;
+    margin-left: 63px;
+    padding-left: 10px;
+}
+
+p {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+    background-image: url("../img/texture-4.jpg");
+    background-size: cover;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: justify;
+    text-justify: distributed;
+}
+
+.silver-text {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    background-image: url("../img/texture-3.jpg");
+    background-size: cover;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-top-left-radius: 20px;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.white {
+    font-family: 'Rammetto One', cursive;
+    -webkit-text-fill-color: #49d644
+}
