@@ -1,8 +1,18 @@
+@keyframes pop {
+    0%   {filter: grayscale(0%);}
+    50%  {filter: grayscale(40%);}
+    100%  {filter: grayscale(0%);}
+}
+
 .main {
     margin-top: 120px;
     border-right: solid 4px white;
     border-bottom: solid 4px white;
     border-bottom-right-radius: 20px;
+}
+
+.main:hover {
+    animation: pop 1s linear;
 }
 
 h1 {
@@ -11,7 +21,7 @@ h1 {
 
     background-image: url("../img/texture-1.jpg");
     background-size: cover;
-    font-size: 5.5em;
+    font-size: 6.8em;
     font-weight: bold;
 }
 
@@ -22,7 +32,7 @@ p {
     background-image: url("../img/texture-2.jpg");
     background-size: cover;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 3.12em;
     text-align: justify;
     text-justify: distributed;
 }
@@ -37,16 +47,23 @@ p {
     border-left: 4px solid white;
     border-top-left-radius: 20px;
     font-weight: bold;
-    font-size: 3.5em;
+    font-style: italic;
+    font-size: 3.6em;
+    transform: rotate(-0.3deg)
 }
 
-.white {
+.logo-q {
     font-family: 'Rammetto One', cursive;
     -webkit-text-fill-color: #49d644;
+    font-size: 1.04em;
+}
+
+.logo-s {
+    font-size: 0.97em;
 }
 
 .logo {
-    border: dashed 1px black;
+    border: solid 4px black;
     border-radius: 50%;
 
 }
@@ -58,4 +75,5 @@ p {
     border-bottom-left-radius: 20px;
     margin-left: 63px;
     padding-left: 10px;
+    transform: rotate(0.3deg)
 }
