@@ -4,6 +4,7 @@
     border-bottom: solid 4px white;
     border-bottom-right-radius: 20px;
 }
+
 h1 {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -12,18 +13,13 @@ h1 {
     background-size: cover;
     font-size: 5.5em;
     font-weight: bold;
-    border-bottom: solid 4px white;
-    border-left: solid 4px white;
-    border-bottom-left-radius: 20px;
-    margin-left: 63px;
-    padding-left: 10px;
 }
 
 p {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     
-    background-image: url("../img/texture-4.jpg");
+    background-image: url("../img/texture-2.jpg");
     background-size: cover;
     font-weight: bold;
     font-size: 3em;
@@ -46,5 +42,20 @@ p {
 
 .white {
     font-family: 'Rammetto One', cursive;
-    -webkit-text-fill-color: #49d644
+    -webkit-text-fill-color: #49d644;
+}
+
+.logo {
+    border: dashed 1px black;
+    border-radius: 50%;
+
+}
+
+.header-image {
+    position: realitive;
+    border-bottom: solid 4px white;
+    border-left: solid 4px white;
+    border-bottom-left-radius: 20px;
+    margin-left: 63px;
+    padding-left: 10px;
 }
