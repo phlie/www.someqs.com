@@ -119,3 +119,7 @@ h1 {
 .end-text {
     border-bottom: solid 4px white;
 }
+
+.end {
+    margin-bottom: 200px;
+}
