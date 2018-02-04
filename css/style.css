@@ -116,9 +116,6 @@ h1 {
 .content p:hover {
     border-left: solid 4px white;
 }
-.end-text {
-    border-bottom: solid 4px white;
-}
 
 .end {
     margin-bottom: 200px;
