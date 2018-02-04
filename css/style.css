@@ -6,31 +6,31 @@
 
 .main {
     margin-top: 120px;
+    margin-bottom: 300px;
     border-right: solid 4px white;
     border-bottom: solid 4px white;
     border-bottom-right-radius: 20px;
+
 }
 
 .main:hover {
     animation: pop 1s linear;
 }
 
-h1 {
+h1, h2, h3, .main p, .silver-text {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-
-    background-image: url("../img/texture-1.jpg");
     background-size: cover;
+}
+
+h1 {
+    background-image: url("../img/texture-1.jpg");
     font-size: 6.8em;
     font-weight: bold;
 }
 
-p {
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    
+.main p {
     background-image: url("../img/texture-2.jpg");
-    background-size: cover;
     font-weight: bold;
     font-size: 3.12em;
     text-align: justify;
@@ -38,18 +38,16 @@ p {
 }
 
 .silver-text {
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
     text-align: center;
     background-image: url("../img/texture-3.jpg");
-    background-size: cover;
     border-top: 4px solid white;
     border-left: 4px solid white;
     border-top-left-radius: 20px;
     font-weight: bold;
     font-style: italic;
     font-size: 3.6em;
-    transform: rotate(-0.3deg)
+    transform: rotate(-0.3deg);
+    margin-top: 20px;
 }
 
 .logo-q {
@@ -76,4 +74,48 @@ p {
     margin-left: 63px;
     padding-left: 10px;
     transform: rotate(0.3deg)
+}
+
+/* CONTENT SECTION */
+
+.content {
+    margin-bottom: 200px;
+}
+
+.content h2 {
+    background-image: url("../img/texture-1.jpg");
+    font-weight: bold;
+    font-style: italic;
+    font-size: 4.7em;
+    border-right: solid 4px white;
+    border-top: solid 4px white;
+    border-radius: 20px;
+}
+
+.content h3 {
+    background-image: url("../img/texture-2.jpg");
+    font-weight: bold;
+    font-size: 4.3em;
+    border-bottom: solid 4px white;
+    border-left: solid 4px white;
+    padding-left: 14px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.content p {
+    color: white;
+    font-size: 2.3em;
+    text-align: justify;
+    text-justify: distributed;
+    margin-bottom: 100px;
+    padding-left: 14px;
+    border-left: solid 4px transparent;
+}
+
+.content p:hover {
+    border-left: solid 4px white;
+}
+.end-text {
+    border-bottom: solid 4px white;
 }
